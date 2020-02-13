@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_introdueixnom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introdueix el teu nom" />
+
+    <EditText
+        android:id="@+id/editText_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv_introdueixany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introdueix el teu any de naixement" />
+
+    <EditText
+        android:id="@+id/editText_any"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tv_introdueixmes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introdueix el teu mes de naixement" />
+
+    <EditText
+        android:id="@+id/editText_mes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tv_introdueixdia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introdueix el dia del teu naixement" />
+
+    <EditText
+        android:id="@+id/editText_dia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tv_resposta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hola em dic X, vaig neixer el dia XX/XX/XXXX i tinc XX anys" />
+
+    <Button
+        android:id="@+id/enviar_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar" />
+
+    <Button
+        android:id="@+id/buidar_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buidar" />
+
+
+</LinearLayout>
